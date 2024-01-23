@@ -1,0 +1,73 @@
+body {
+    font-family: "Comic Neue";
+}
+
+header {
+    background-color: rgb(153, 153, 153);
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+a.navbar-brand {
+    color: black;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.tile {
+    background-color: rgb(153, 153, 153);
+}
+
+p {
+    margin: 0 10px;
+}
+
+.tile a {
+    color: #155394
+}
+
+.navbar-toggle {
+    border: 1px solid rgb(220, 220, 220);
+    color: rgb(220, 220, 220);
+    margin: 20px 15px 10px;
+    padding: 9px 9px 0;
+    font-size: 30px;
+    
+}
+
+.navbar-toggle.collapsed {
+    border: 1px solid black;
+    color: black;
+}
+
+#menu-sections {
+    padding: 0;
+    border-top: 1px solid black;
+}
+
+#menu-sections ul{
+    background-color: white;
+    margin: 0;
+}
+
+#menu-sections li {
+    border: 1px solid black;
+}
+
+#menu-sections a {
+    color: black;
+}
